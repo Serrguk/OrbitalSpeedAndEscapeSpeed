@@ -1,9 +1,6 @@
 import java.math.BigDecimal;
 import java.math.MathContext;
 
-/*
-Вторая космическая скорость равна квадратному корню из 2G, помноженной на массу объекта, делённую на её радиус
- */
 public class EscapeSpeed {
     public static final BigDecimal G = BigDecimal.valueOf(6.6743E-11);// m^3 / kg * s^2 - гравитационная постоянная
 
