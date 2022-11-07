@@ -1,6 +1,6 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println(EscapeSpeed.getG());
+        System.out.println("Гравитационная постоянная примерно равна " + EscapeSpeed.G + " м^3/кг*с^2");
         System.out.println("Средний радиус Земли равен " + SpaceObject.EARTH.getRadius() + " метров");
         System.out.println("Масса Земли равна " + SpaceObject.EARTH.getMass() + " килограммов\n");
         String sampleForV1 = "Первая космическая скорость для объекта %s равна %f метров в секунду\n";
