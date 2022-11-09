@@ -11,5 +11,18 @@ public class Main {
         System.out.println(SpaceSpeed.isEscape(BigDecimal.valueOf(50.0154E100), BigDecimal.valueOf(50000.0)));
         System.out.println(SpaceSpeed.isOrbital(SpaceObject.SUN.getMass(), SpaceObject.SUN.getRadius()));
         System.out.println(SpaceSpeed.isEscape(SpaceObject.SUN.getMass(), SpaceObject.SUN.getRadius()));
+
+        System.out.println("Объект " + SpaceObject.MOON + ": " +
+                SpaceSpeed.isOrbital(SpaceObject.MOON.getMass(), SpaceObject.MOON.getRadius()));
+        System.out.println("Объект " + SpaceObject.MOON + ": " +
+                SpaceSpeed.isEscape(SpaceObject.MOON.getMass(), SpaceObject.MOON.getRadius()));
+
+        System.out.println("Объект " + SpaceObject.SAGITTARIUS_A_WITH_STAR + ": " +
+                SpaceSpeed.isOrbital(SpaceObject.SAGITTARIUS_A_WITH_STAR.getMass(),
+                        SpaceObject.SAGITTARIUS_A_WITH_STAR.getRadius()));
+
+        System.out.println("Объект " + SpaceObject.SAGITTARIUS_A_WITH_STAR + ": " +
+                SpaceSpeed.isEscape(SpaceObject.SAGITTARIUS_A_WITH_STAR.getMass(),
+                        SpaceObject.SAGITTARIUS_A_WITH_STAR.getRadius()));
     }
 }
