@@ -7,8 +7,6 @@ public enum SpaceObject {
     SAGITTARIUS_A_WITH_STAR(BigDecimal.valueOf(4.297).multiply(SUN.mass.multiply(BigDecimal.valueOf(1_000_000))),
             BigDecimal.valueOf(6_732_000_000.0));
 
-
-
     private final BigDecimal mass;//кг
     private final BigDecimal radius;//м
 
@@ -24,5 +22,4 @@ public enum SpaceObject {
     public BigDecimal getMass() {
         return mass;
     }
-
 }
